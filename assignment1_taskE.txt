@@ -1,0 +1,4 @@
+batman-package==2.4.9
+-e git+https://github.com/AlbertoCasellato/Bazingales.git@3c2516ee9f73355ae27fce4f869562914a5442ee#egg=daneel
+numpy==2.1.3
+PyYAML==6.0.2
