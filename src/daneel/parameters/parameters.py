@@ -15,3 +15,4 @@ class Parameters:
 
     def get(self, param):
         return self.params[param]
+
