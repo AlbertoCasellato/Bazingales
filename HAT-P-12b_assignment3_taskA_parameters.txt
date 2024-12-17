@@ -1,0 +1,40 @@
+[Chemistry]
+chemistry_type = taurex
+fill_gases = H2,He
+ratio = 0.25
+
+    [[H2O]]
+    gas_type = constant
+    mix_ratio=1e-4
+
+    [[CH4]]
+    gas_type = constant
+    mix_ratio=1e-7
+
+    [[CO2]]
+    gas_type = constant
+    mix_ratio=1e-5
+
+    [[CO]]
+    gas_type = constant
+    mix_ratio=1e-8
+
+
+[Temperature]
+profile_type = isothermal
+T = 965
+
+[Pressure]
+profile_type = Simple
+atm_min_pressure = 1e-0
+atm_max_pressure = 1e6
+nlayers = 100
+
+[Planet]
+planet_type = Simple
+planet_mass = 0.210489884529
+planet_radius = 0.949
+
+[Star]
+star_type = blackbody
+temperature = 4650
