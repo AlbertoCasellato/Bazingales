@@ -1,0 +1,16 @@
+Near-Infrared Transmission Spectroscopy of HAT-P-18 b with NIRISS: Disentangling Planetary and Stellar Features in the Era of JWST
+Fournier-Tondreau et al.
+
+HAT-P-18 b, parameters:
+
+-T=852 K
+-M=0.197 m_j
+-R=0.995 r_j
+-logH2O=-4.4
+-logCH4<= -6
+-logCO2=-4.8
+
+HAT-P-18, parameters:
+
+-T=4803 K
+
