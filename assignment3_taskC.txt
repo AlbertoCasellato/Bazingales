@@ -1,0 +1,9 @@
+Input parameters:
+R = 0.949
+T = 965
+log(H2O) = -4
+
+Retrieved parameters:
+R = 0.95 ± 0
+T = 964.92 ± 5.98
+log(H2O) = -3.87 ± 0.02
