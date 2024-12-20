@@ -1,0 +1,37 @@
+KERNEL: LINEAR
+
+precision train: 1.00
+precision dev: 0.99
+
+Confusion Matrix - Train Set
+[[5050    0]
+ [   0   37]]
+confusion matrix - Dev Set
+[[565   0]
+ [  5   0]]
+
+
+KERNEL: GAUSSIAN
+
+precision train: 1.00
+precision dev: 0.99
+
+Confusion Matrix - Train Set
+[[5050    0]
+ [   1   36]]
+Confusion Matrix - Dev Set
+[[565   0]
+ [  5   0]]
+
+
+KERNEL: POLYNOMIAL OF DEGREE 4
+
+precision train: 1.00
+precision dev: 0.98
+
+Confusion Matrix - Train Set
+[[5050    0]
+ [   0   37]]
+Confusion Matrix - Dev Set
+[[559   6]
+ [  5   0]]
