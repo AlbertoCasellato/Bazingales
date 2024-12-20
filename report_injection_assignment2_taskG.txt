@@ -1,0 +1,102 @@
+1 LAYER, 1 NEURON
+
+precision train: 0.5531747591900924
+precision dev:   0.531578947368421
+
+confusion_matrix_train
+[[ 778 1448]
+ [ 825 2036]]
+confusion_matrix_dev
+[[ 62 192]
+ [ 75 241]]
+
+
+1 LAYER, 5 NEURONS
+
+precision train: 0.5205425594653037
+precision dev:   0.45964912280701753
+
+confusion_matrix_train
+[[1591  635]
+ [1804 1057]]
+confusion_matrix_dev
+[[170  84]
+ [224  92]]
+
+
+1 LAYER, 10 NEURONS, DROPOUT 0.1
+
+precision train: 0.5419697267544722
+precision dev:   0.543859649122807
+
+confusion_matrix_train
+[[1399  827]
+ [1503 1358]]
+confusion_matrix_dev
+[[ 53 201]
+ [ 59 257]]
+
+
+1 LAYER, 100 NEURONS, DROPOUT 0.1
+
+precision train: 0.52978179673678
+precision dev:   0.47368421052631576
+
+confusion_matrix_train
+[[1649  577]
+ [1815 1046]]
+confusion_matrix_dev
+[[164  90]
+ [210 106]]
+
+
+2 LAYER, 1 NEURON
+
+precision train: 0.5543542362885787
+precision dev:   0.5298245614035088
+
+confusion_matrix_train
+[[ 749 1477]
+ [ 790 2071]]
+confusion_matrix_dev
+[[ 69 185]
+ [ 83 233]]
+
+
+2 LAYER, 5 NEURONS
+
+precision train: 0.5844309022999803
+precision dev:   0.5561403508771929
+
+confusion_matrix_train
+[[ 239 1987]
+ [ 127 2734]]
+confusion_matrix_dev
+[[  3 251]
+ [  2 314]]
+
+
+2 LAYER, 10 NEURONS, DROPOUT 0.1
+
+precision train: 0.5405936701395715
+precision dev:   0.5421052631578948
+
+confusion_matrix_train
+[[1434  792]
+ [1545 1316]]
+confusion_matrix_dev
+[[ 74 180]
+ [ 81 235]]
+
+
+2 LAYER, 100 NEURONS, DROPOUT 0.1
+
+precision train: 0.52978179673678
+precision dev:   0.45087719298245615
+
+confusion_matrix_train
+[[1814  412]
+ [1980  881]]
+confusion_matrix_dev
+[[230  24]
+ [289  27]]
